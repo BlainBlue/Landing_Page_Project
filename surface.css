@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:auto;
+}
+.header > img{
+    max-width:200px;
+    height: auto;
+    width: auto;
+}
+.header{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+.left-link{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#e62798;
+}
+.mid{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #e62798;
+    flex: auto;
+    padding: 30px;
+    margin: 10px 0;
+    flex: auto;
+    gap: 70px;
+}
+.mid img{
+    flex-grow: 2;
+}
+.history{
+    color: white;
+}
+
+.text2{
+    margin: 15px;
+    font-size: 42px;
+    font-weight: bold;
+}
+.text1{
+    margin: 20px;
+    font-size: 28px;
+}
+.btt{
+    padding: 8px;
+    margin: 20px;
+    font-size: 24px;
+    background-color: white;
+    font-weight: bold;
+    color: #e62798;
+   
+}
+.third_part{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}.text3{
+    margin-top: 20px;
+    text-align: center;
+font-size: 42px;
+color: #e62798;
+font-weight: 900;
+}
+.single{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 50px;
+    gap: 60px;
+}
+a{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 24px;
+ }
+.forth_part{
+    background-color: #e62798;
+    font-size: 28px;
+    color: white;
+}
+.text4{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 34px;
+    font-weight: 900;
+    margin: 40px;
+}
+.text5{
+    margin: 40px;
+padding:30px;
+text-align: justify;
+background-color: white;
+color: #e62798;
+font-weight: 600;
+}
+.text6{
+    margin: 40px;
+    font-weight: 600;
+}
+.fifth_part{
+    margin: 60px;
+    padding:  30px ;
+    gap: 34px;
+    font-size: 40px;
+    background-color: #e62798;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.fifth_part > button{
+    font-size: 24px;
+    margin-left: auto;
+    padding:  15px;
+    font-weight: bold;
+    color: #e62798;
+    background-color: white;
+}
+.footer{
+    background-color: #e62798;
+    color:white;
+    text-align: end;
+    font-size: 20px;
+    padding: 10px;
+}
